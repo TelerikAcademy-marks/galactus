@@ -21,7 +21,7 @@ Task Manager- SPA in which you can:
 | Dimitar Popov | mitkop | molivpopov |
 
 ## Live demo
-[**Galactus Task Manager**](https://raw.githack.com/Team-Galactus/galactus/master/public/index.html)
+[**Galactus Task Manager**](https://raw.githack.com/TelerikAcademy-marks/galactus/master/public/index.html)
 
 ## Video demo
 
