@@ -142,7 +142,7 @@ describe('Tests', function () {
 				})
 				.then((f) => {
 					//console.log(f);
-					expect(f).to.be.equal(result);
+			        expect(f).to.be.null;
 				})
 				.then(done, done);
 		});

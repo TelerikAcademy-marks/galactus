@@ -4,7 +4,7 @@
   "description": "All node modules required",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "start chrome http://127.0.0.1:8080/public/tests/tests.html && live-server"
   },
   "repository": {
     "type": "git",

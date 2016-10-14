@@ -114,6 +114,11 @@ var dataService = {
     },
 
     dashboards() {
+        // user is logged out
+        if (!localStorage.getItem("user")) {
+            return null;
+        }
+
         const accessToken = JSON.parse(localStorage.getItem("user")).access_token;
         const options = { headers: { "Authorization": `Bearer ${accessToken}` } };
 
